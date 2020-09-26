@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem
+}
+.profile{
+    width: 100px;
+}
+.login-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.wave{
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.img1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.img1 img{
+    width: 500px;
+}
+form h2{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333;
+}
+.copyright{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  
+   
+    text-align: center;
+    text-align:center;
+}
