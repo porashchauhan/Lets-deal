@@ -45,7 +45,36 @@
                                    <h4 style="color: grey;">OUR HISTORY</h4>
 								</div>
                             </div>
-							
+							<div class="panel-body">
+							   <p>
+                                   <div style="color:#0000ff">Address</div>
+								   <div style="font-weight: normal;">The company was founded in 2020 itself, So currently its working only in IIT Bhilai.</div>
+							  </p>
+
+							  <p>
+							     <div style="color:#0000ff">Contributers</div>
+								 <div style="font-weight: normal;">Porash Chauhan- CSE 2019 Batch.<br />Akshar Sharma- CSE 2019 Batch.<br />Harshil Singhal- CSE 2019 Batch. </div>
+							  </p>
+							</div>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="panel">
+                            <div class="panel-heading">
+							    <div class="panel-title">
+                                    <h4 style="color: grey;">OPPORTUNITIES</h4>
+								</div>
+								<div class="panel-body">
+                                    <h4>Available Roles</h4>
+
+                                    <li>web developer [full time + 6 months internship]</li>
+                                    <li>business analysis [full time + 6 months internship]</li>
+                                    <li>software engineering [full time + 6 months internship]</li>
+
+								</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 		</div>
