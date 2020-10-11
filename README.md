@@ -1,2 +1,4 @@
 # Lets-deal
 A 2nd hand goods buy and selling website for institute junta, students can upload the items they want to sell under different categories. 
+
+http://lets--code.great-site.net/index.php
