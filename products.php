@@ -233,7 +233,108 @@ if (!isset($_SESSION['email']))
                 </div>
             </div>
 
-            
+            <div class="row text-center" id="shirts">
+                <div class="col-md-3 col-sm-6 home-feature">
+                    <div class="thumbnail">
+                        <img src="images/22.jpg" alt=""  style="height: 167px";>
+                        <div class="caption">
+                            <h3>Wireless keyboard </h3>
+                            <p>(fair condition) Price: Rs. 400 </p>
+                            <?php if (!isset($_SESSION['email'])) { ?>
+                                <p><a href="#myModal" role="button" data-toggle="modal" class="btn btn-primary btn-block">Buy Now</a></p>
+                                <?php
+                            } else {
+                                // created a function to check whether this particular product is added to cart or not.
+                                if (check_if_added_to_cart(9)) { //This is same as if(check_if_added_to_cart != 0)
+                                    echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                } else {
+                                    ?>
+                                    <a href="cart-add.php?id=9" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    <?php
+                                }
+                            }
+                            ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 home-feature">
+                    <div class="thumbnail">
+                        <img src="images/23.jpg" alt=""  style="height: 140px";>
+                        <div class="caption">
+                            <h3>Rasberry pie module</h3>
+                            <p>(working condition) Price: Rs.200</p>
+                            <?php if (!isset($_SESSION['email'])) { ?>
+                                <p><a href="#myModal" role="button" data-toggle="modal" class="btn btn-primary btn-block">Buy Now</a></p>
+                                <?php
+                            } else {
+                                //created a function to check whether this particular product is added to cart or not.
+                                if (check_if_added_to_cart(10)) { //This is same as if(check_if_added_to_cart != 0)
+                                    echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                } else {
+                                    ?>
+                                    <a href="cart-add.php?id=10" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    <?php
+                                }
+                            }
+                            ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 home-feature">
+                    <div class="thumbnail">
+                        <img src="images/24.jpg" alt="">
+                        <div class="caption">
+                            <h3>hero sprint</h3>
+                            <p>Price: Rs.900</p>
+                            <?php if (!isset($_SESSION['email'])) { ?>
+                                <p><a href="#myModal" role="button" data-toggle="modal" class="btn btn-primary btn-block">Buy Now</a></p>
+                                <?php
+                            } else {
+                                // created a function to check whether this particular product is added to cart or not.
+                                if (check_if_added_to_cart(11)) { //This is same as if(check_if_added_to_cart != 0)
+                                    echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                } else {
+                                    ?>
+                                    <a href="cart-add.php?id=11" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    <?php
+                                }
+                            }
+                            ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 home-feature">
+                    <div class="thumbnail">
+                        <img src="images/25.jpg" alt=""  style="height: 167px";>
+                        <div class="caption">
+                            <h3>Bed study table</h3>
+                            <p>Price Rs.700</p>
+                            <?php if (!isset($_SESSION['email'])) { ?>
+                                <p><a href="#myModal" role="button" data-toggle="modal" class="btn btn-primary btn-block">Buy Now</a></p>
+                                <?php
+                            } else {
+                                // created a function to check whether this particular product is added to cart or not.
+                                if (check_if_added_to_cart(12)) { //This is same as if(check_if_added_to_cart != 0)
+                                    echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
+                                } else {
+                                    ?>
+                                    <a href="cart-add.php?id=12" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    <?php
+                                }
+                            }
+                            ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             <hr>
         </div>
 
