@@ -25,11 +25,7 @@
 					 <div class="col-xs-10 col-md-12">
                        <center><p>&copy; 2020 lets_deal.com</p></center>
                      </div>
-				   <!--<div class="col-xs-6 col-md-4">
-                        <h4>Contact</h4>
-                        <p>Birla Institute Of Technology, Mesra, Ranchi</p>
-                         <p>+919000900009</p>
-                   </div>-->
+				  
 				    <?php
 					}
 					?>
